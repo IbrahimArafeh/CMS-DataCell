@@ -1,0 +1,12 @@
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\DB.dll.config
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\DB.dll
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\DB.pdb
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\EntityFramework.dll
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\EntityFramework.xml
+C:\Projects\CMS DataCell Solutions\DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\CMS DataCell Solutions\DB\obj\Debug\DB.csproj.AssemblyReference.cache
+C:\Projects\CMS DataCell Solutions\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+C:\Projects\CMS DataCell Solutions\DB\obj\Debug\DB.csproj.CopyComplete
+C:\Projects\CMS DataCell Solutions\DB\obj\Debug\DB.dll
+C:\Projects\CMS DataCell Solutions\DB\obj\Debug\DB.pdb

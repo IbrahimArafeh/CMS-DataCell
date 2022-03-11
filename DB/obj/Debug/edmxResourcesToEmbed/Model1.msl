@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OpenDataModelStoreContainer" CdmEntityContainer="OpenDataEntities">
+    <EntitySetMapping Name="GovernmentFees">
+      <EntityTypeMapping TypeName="OpenDataModel.GovernmentFee">
+        <MappingFragment StoreEntitySet="GovernmentFees">
+          <ScalarProperty Name="DepartmentCode" ColumnName="DepartmentCode" />
+          <ScalarProperty Name="DepartementName" ColumnName="DepartementName" />
+          <ScalarProperty Name="ActivityUnifiedElectronicCode" ColumnName="ActivityUnifiedElectronicCode" />
+          <ScalarProperty Name="ActivityDescription" ColumnName="ActivityDescription" />
+          <ScalarProperty Name="SectorClassification" ColumnName="SectorClassification" />
+          <ScalarProperty Name="EconomicClassification" ColumnName="EconomicClassification" />
+          <ScalarProperty Name="PricingCategory" ColumnName="PricingCategory" />
+          <ScalarProperty Name="CollectionPeriodical" ColumnName="CollectionPeriodical" />
+          <ScalarProperty Name="GovernmentNaturalState" ColumnName="GovernmentNaturalState" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="BeneficiaryType" ColumnName="BeneficiaryType" />
+          <ScalarProperty Name="SourceOfRevenue" ColumnName="SourceOfRevenue" />
+          <ScalarProperty Name="FixedVariable" ColumnName="FixedVariable" />
+          <ScalarProperty Name="FeesInLegislation" ColumnName="FeesInLegislation" />
+          <ScalarProperty Name="LegislationNumber" ColumnName="LegislationNumber" />
+          <ScalarProperty Name="LegislationYear" ColumnName="LegislationYear" />
+          <ScalarProperty Name="PublishingAbility" ColumnName="PublishingAbility" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DepartementNameEn" ColumnName="DepartementNameEn" />
+          <ScalarProperty Name="ActivityDescriptionEn" ColumnName="ActivityDescriptionEn" />
+          <ScalarProperty Name="SectorClassificationEn" ColumnName="SectorClassificationEn" />
+          <ScalarProperty Name="EconomicClassificationEn" ColumnName="EconomicClassificationEn" />
+          <ScalarProperty Name="PricingCategoryEn" ColumnName="PricingCategoryEn" />
+          <ScalarProperty Name="CollectionPeriodicalEn" ColumnName="CollectionPeriodicalEn" />
+          <ScalarProperty Name="GovernmentNaturalStateEn" ColumnName="GovernmentNaturalStateEn" />
+          <ScalarProperty Name="StatusEn" ColumnName="StatusEn" />
+          <ScalarProperty Name="BeneficiaryTypeEn" ColumnName="BeneficiaryTypeEn" />
+          <ScalarProperty Name="SourceOfRevenueEn" ColumnName="SourceOfRevenueEn" />
+          <ScalarProperty Name="FixedVariableEn" ColumnName="FixedVariableEn" />
+          <ScalarProperty Name="FeesInLegislationEn" ColumnName="FeesInLegislationEn" />
+          <ScalarProperty Name="PublishingAbilityEn" ColumnName="PublishingAbilityEn" />
+          <ScalarProperty Name="PricingCategoryCode" ColumnName="PricingCategoryCode" />
+          <ScalarProperty Name="FeesTypesContentEn" ColumnName="FeesTypesContentEn" />
+          <ScalarProperty Name="FeesTypesContent" ColumnName="FeesTypesContent" />
+          <ScalarProperty Name="ActivityDescription_bk" ColumnName="ActivityDescription_bk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GovernmentFeesEns">
+      <EntityTypeMapping TypeName="OpenDataModel.GovernmentFeesEn">
+        <MappingFragment StoreEntitySet="GovernmentFeesEn">
+          <ScalarProperty Name="DepartmentCode" ColumnName="DepartmentCode" />
+          <ScalarProperty Name="DepartementName" ColumnName="DepartementName" />
+          <ScalarProperty Name="ActivityUnifiedElectronicCode" ColumnName="ActivityUnifiedElectronicCode" />
+          <ScalarProperty Name="ActivityDescription" ColumnName="ActivityDescription" />
+          <ScalarProperty Name="SectorClassification" ColumnName="SectorClassification" />
+          <ScalarProperty Name="EconomicClassification" ColumnName="EconomicClassification" />
+          <ScalarProperty Name="PricingCategory" ColumnName="PricingCategory" />
+          <ScalarProperty Name="CollectionPeriodical" ColumnName="CollectionPeriodical" />
+          <ScalarProperty Name="GovernmentNaturalState" ColumnName="GovernmentNaturalState" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="BeneficiaryType" ColumnName="BeneficiaryType" />
+          <ScalarProperty Name="SourceOfRevenue" ColumnName="SourceOfRevenue" />
+          <ScalarProperty Name="FixedVariable" ColumnName="FixedVariable" />
+          <ScalarProperty Name="FeesInLegislation" ColumnName="FeesInLegislation" />
+          <ScalarProperty Name="LegislationNumber" ColumnName="LegislationNumber" />
+          <ScalarProperty Name="LegislationYear" ColumnName="LegislationYear" />
+          <ScalarProperty Name="PublishingAbility" ColumnName="PublishingAbility" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobClassificationOfExpenses">
+      <EntityTypeMapping TypeName="OpenDataModel.JobClassificationOfExpens">
+        <MappingFragment StoreEntitySet="JobClassificationOfExpenses">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="JobClassificationOfExpenses" ColumnName="JobClassificationOfExpenses" />
+          <ScalarProperty Name="JobClassificationOfExpensesEn" ColumnName="JobClassificationOfExpensesEn" />
+          <ScalarProperty Name="TotalExpenses" ColumnName="TotalExpenses" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RevenueByEconomicClassifications">
+      <EntityTypeMapping TypeName="OpenDataModel.RevenueByEconomicClassification">
+        <MappingFragment StoreEntitySet="RevenueByEconomicClassification">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="EconomicClassification" ColumnName="EconomicClassification" />
+          <ScalarProperty Name="TotalRevenue" ColumnName="TotalRevenue" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EconomicClassificationEn" ColumnName="EconomicClassificationEn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Revenues">
+      <EntityTypeMapping TypeName="OpenDataModel.Revenue">
+        <MappingFragment StoreEntitySet="Revenues">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="TotalRevenue" ColumnName="TotalRevenue" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RevenuesByFunctionalSectors">
+      <EntityTypeMapping TypeName="OpenDataModel.RevenuesByFunctionalSector">
+        <MappingFragment StoreEntitySet="RevenuesByFunctionalSectors">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="SectorsByJob" ColumnName="SectorsByJob" />
+          <ScalarProperty Name="TotalRevenue" ColumnName="TotalRevenue" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SectorsByJobEn" ColumnName="SectorsByJobEn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TotalExpenses">
+      <EntityTypeMapping TypeName="OpenDataModel.TotalExpens">
+        <MappingFragment StoreEntitySet="TotalExpenses">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="TotalExpenses" ColumnName="TotalExpenses" />
+          <ScalarProperty Name="OperatingExpenses" ColumnName="OperatingExpenses" />
+          <ScalarProperty Name="CapitalSpending" ColumnName="CapitalSpending" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

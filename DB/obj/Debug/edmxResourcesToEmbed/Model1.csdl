@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OpenDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="GovernmentFee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="DepartmentCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DepartementName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityUnifiedElectronicCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityDescription" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SectorClassification" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EconomicClassification" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PricingCategory" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CollectionPeriodical" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="GovernmentNaturalState" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BeneficiaryType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SourceOfRevenue" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FixedVariable" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FeesInLegislation" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LegislationNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LegislationYear" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PublishingAbility" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartementNameEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityDescriptionEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SectorClassificationEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EconomicClassificationEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PricingCategoryEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CollectionPeriodicalEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="GovernmentNaturalStateEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="StatusEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BeneficiaryTypeEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SourceOfRevenueEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FixedVariableEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FeesInLegislationEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PublishingAbilityEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PricingCategoryCode" Type="Int32" />
+    <Property Name="FeesTypesContentEn" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Name="FeesTypesContent" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityDescription_bk" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="GovernmentFeesEn">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="DepartmentCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DepartementName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityUnifiedElectronicCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityDescription" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SectorClassification" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EconomicClassification" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PricingCategory" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CollectionPeriodical" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="GovernmentNaturalState" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BeneficiaryType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SourceOfRevenue" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FixedVariable" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FeesInLegislation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LegislationNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LegislationYear" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PublishingAbility" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="JobClassificationOfExpens">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="Double" />
+    <Property Name="JobClassificationOfExpenses" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="JobClassificationOfExpensesEn" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TotalExpenses" Type="Double" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="RevenueByEconomicClassification">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="Double" />
+    <Property Name="EconomicClassification" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TotalRevenue" Type="Double" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EconomicClassificationEn" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Revenue">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="Double" />
+    <Property Name="TotalRevenue" Type="Double" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="RevenuesByFunctionalSector">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="Double" />
+    <Property Name="SectorsByJob" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TotalRevenue" Type="Double" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SectorsByJobEn" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TotalExpens">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="Double" />
+    <Property Name="TotalExpenses" Type="Double" />
+    <Property Name="OperatingExpenses" Type="Double" />
+    <Property Name="CapitalSpending" Type="Double" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="OpenDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="GovernmentFees" EntityType="Self.GovernmentFee" />
+    <EntitySet Name="GovernmentFeesEns" EntityType="Self.GovernmentFeesEn" />
+    <EntitySet Name="JobClassificationOfExpenses" EntityType="Self.JobClassificationOfExpens" />
+    <EntitySet Name="RevenueByEconomicClassifications" EntityType="Self.RevenueByEconomicClassification" />
+    <EntitySet Name="Revenues" EntityType="Self.Revenue" />
+    <EntitySet Name="RevenuesByFunctionalSectors" EntityType="Self.RevenuesByFunctionalSector" />
+    <EntitySet Name="TotalExpenses" EntityType="Self.TotalExpens" />
+  </EntityContainer>
+</Schema>

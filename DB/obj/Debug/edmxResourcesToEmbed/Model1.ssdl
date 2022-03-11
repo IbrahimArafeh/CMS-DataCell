@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OpenDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.GovernmentFees' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="GovernmentFees">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="DepartmentCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="DepartementName" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActivityUnifiedElectronicCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActivityDescription" Type="nvarchar" MaxLength="255" />
+    <Property Name="SectorClassification" Type="nvarchar" MaxLength="255" />
+    <Property Name="EconomicClassification" Type="nvarchar" MaxLength="255" />
+    <Property Name="PricingCategory" Type="nvarchar" MaxLength="255" />
+    <Property Name="CollectionPeriodical" Type="nvarchar" MaxLength="255" />
+    <Property Name="GovernmentNaturalState" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="nvarchar" MaxLength="255" />
+    <Property Name="BeneficiaryType" Type="nvarchar" MaxLength="255" />
+    <Property Name="SourceOfRevenue" Type="nvarchar" MaxLength="255" />
+    <Property Name="FixedVariable" Type="nvarchar" MaxLength="255" />
+    <Property Name="FeesInLegislation" Type="nvarchar" MaxLength="255" />
+    <Property Name="LegislationNumber" Type="nvarchar" MaxLength="255" />
+    <Property Name="LegislationYear" Type="nvarchar" MaxLength="255" />
+    <Property Name="PublishingAbility" Type="nvarchar" MaxLength="255" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DepartementNameEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActivityDescriptionEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="SectorClassificationEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="EconomicClassificationEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="PricingCategoryEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="CollectionPeriodicalEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="GovernmentNaturalStateEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="StatusEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="BeneficiaryTypeEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="SourceOfRevenueEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="FixedVariableEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="FeesInLegislationEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="PublishingAbilityEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="PricingCategoryCode" Type="int" />
+    <Property Name="FeesTypesContentEn" Type="nvarchar" MaxLength="1024" />
+    <Property Name="FeesTypesContent" Type="nvarchar" MaxLength="1024" />
+    <Property Name="ActivityDescription_bk" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.GovernmentFeesEn' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="GovernmentFeesEn">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="DepartmentCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="DepartementName" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActivityUnifiedElectronicCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActivityDescription" Type="nvarchar" MaxLength="255" />
+    <Property Name="SectorClassification" Type="nvarchar" MaxLength="255" />
+    <Property Name="EconomicClassification" Type="nvarchar" MaxLength="255" />
+    <Property Name="PricingCategory" Type="nvarchar" MaxLength="255" />
+    <Property Name="CollectionPeriodical" Type="nvarchar" MaxLength="255" />
+    <Property Name="GovernmentNaturalState" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="nvarchar" MaxLength="255" />
+    <Property Name="BeneficiaryType" Type="nvarchar" MaxLength="255" />
+    <Property Name="SourceOfRevenue" Type="nvarchar" MaxLength="255" />
+    <Property Name="FixedVariable" Type="nvarchar" MaxLength="255" />
+    <Property Name="FeesInLegislation" Type="nvarchar(max)" />
+    <Property Name="LegislationNumber" Type="nvarchar" MaxLength="255" />
+    <Property Name="LegislationYear" Type="nvarchar" MaxLength="255" />
+    <Property Name="PublishingAbility" Type="nvarchar" MaxLength="255" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.JobClassificationOfExpenses' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="JobClassificationOfExpenses">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="float" />
+    <Property Name="JobClassificationOfExpenses" Type="nvarchar" MaxLength="255" />
+    <Property Name="JobClassificationOfExpensesEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="TotalExpenses" Type="float" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.RevenueByEconomicClassification' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="RevenueByEconomicClassification">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="float" />
+    <Property Name="EconomicClassification" Type="nvarchar" MaxLength="255" />
+    <Property Name="TotalRevenue" Type="float" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EconomicClassificationEn" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.Revenues' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Revenues">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="float" />
+    <Property Name="TotalRevenue" Type="float" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.RevenuesByFunctionalSectors' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="RevenuesByFunctionalSectors">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="float" />
+    <Property Name="SectorsByJob" Type="nvarchar" MaxLength="255" />
+    <Property Name="TotalRevenue" Type="float" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SectorsByJobEn" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OpenData.dbo.TotalExpenses' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TotalExpenses">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Year" Type="float" />
+    <Property Name="TotalExpenses" Type="float" />
+    <Property Name="OperatingExpenses" Type="float" />
+    <Property Name="CapitalSpending" Type="float" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="OpenDataModelStoreContainer">
+    <EntitySet Name="GovernmentFees" EntityType="Self.GovernmentFees" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [GovernmentFees].[DepartmentCode] AS [DepartmentCode], 
+    [GovernmentFees].[DepartementName] AS [DepartementName], 
+    [GovernmentFees].[ActivityUnifiedElectronicCode] AS [ActivityUnifiedElectronicCode], 
+    [GovernmentFees].[ActivityDescription] AS [ActivityDescription], 
+    [GovernmentFees].[SectorClassification] AS [SectorClassification], 
+    [GovernmentFees].[EconomicClassification] AS [EconomicClassification], 
+    [GovernmentFees].[PricingCategory] AS [PricingCategory], 
+    [GovernmentFees].[CollectionPeriodical] AS [CollectionPeriodical], 
+    [GovernmentFees].[GovernmentNaturalState] AS [GovernmentNaturalState], 
+    [GovernmentFees].[Status] AS [Status], 
+    [GovernmentFees].[BeneficiaryType] AS [BeneficiaryType], 
+    [GovernmentFees].[SourceOfRevenue] AS [SourceOfRevenue], 
+    [GovernmentFees].[FixedVariable] AS [FixedVariable], 
+    [GovernmentFees].[FeesInLegislation] AS [FeesInLegislation], 
+    [GovernmentFees].[LegislationNumber] AS [LegislationNumber], 
+    [GovernmentFees].[LegislationYear] AS [LegislationYear], 
+    [GovernmentFees].[PublishingAbility] AS [PublishingAbility], 
+    [GovernmentFees].[ID] AS [ID], 
+    [GovernmentFees].[DepartementNameEn] AS [DepartementNameEn], 
+    [GovernmentFees].[ActivityDescriptionEn] AS [ActivityDescriptionEn], 
+    [GovernmentFees].[SectorClassificationEn] AS [SectorClassificationEn], 
+    [GovernmentFees].[EconomicClassificationEn] AS [EconomicClassificationEn], 
+    [GovernmentFees].[PricingCategoryEn] AS [PricingCategoryEn], 
+    [GovernmentFees].[CollectionPeriodicalEn] AS [CollectionPeriodicalEn], 
+    [GovernmentFees].[GovernmentNaturalStateEn] AS [GovernmentNaturalStateEn], 
+    [GovernmentFees].[StatusEn] AS [StatusEn], 
+    [GovernmentFees].[BeneficiaryTypeEn] AS [BeneficiaryTypeEn], 
+    [GovernmentFees].[SourceOfRevenueEn] AS [SourceOfRevenueEn], 
+    [GovernmentFees].[FixedVariableEn] AS [FixedVariableEn], 
+    [GovernmentFees].[FeesInLegislationEn] AS [FeesInLegislationEn], 
+    [GovernmentFees].[PublishingAbilityEn] AS [PublishingAbilityEn], 
+    [GovernmentFees].[PricingCategoryCode] AS [PricingCategoryCode], 
+    [GovernmentFees].[FeesTypesContentEn] AS [FeesTypesContentEn], 
+    [GovernmentFees].[FeesTypesContent] AS [FeesTypesContent], 
+    [GovernmentFees].[ActivityDescription_bk] AS [ActivityDescription_bk]
+    FROM [dbo].[GovernmentFees] AS [GovernmentFees]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="GovernmentFeesEn" EntityType="Self.GovernmentFeesEn" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [GovernmentFeesEn].[DepartmentCode] AS [DepartmentCode], 
+    [GovernmentFeesEn].[DepartementName] AS [DepartementName], 
+    [GovernmentFeesEn].[ActivityUnifiedElectronicCode] AS [ActivityUnifiedElectronicCode], 
+    [GovernmentFeesEn].[ActivityDescription] AS [ActivityDescription], 
+    [GovernmentFeesEn].[SectorClassification] AS [SectorClassification], 
+    [GovernmentFeesEn].[EconomicClassification] AS [EconomicClassification], 
+    [GovernmentFeesEn].[PricingCategory] AS [PricingCategory], 
+    [GovernmentFeesEn].[CollectionPeriodical] AS [CollectionPeriodical], 
+    [GovernmentFeesEn].[GovernmentNaturalState] AS [GovernmentNaturalState], 
+    [GovernmentFeesEn].[Status] AS [Status], 
+    [GovernmentFeesEn].[BeneficiaryType] AS [BeneficiaryType], 
+    [GovernmentFeesEn].[SourceOfRevenue] AS [SourceOfRevenue], 
+    [GovernmentFeesEn].[FixedVariable] AS [FixedVariable], 
+    [GovernmentFeesEn].[FeesInLegislation] AS [FeesInLegislation], 
+    [GovernmentFeesEn].[LegislationNumber] AS [LegislationNumber], 
+    [GovernmentFeesEn].[LegislationYear] AS [LegislationYear], 
+    [GovernmentFeesEn].[PublishingAbility] AS [PublishingAbility], 
+    [GovernmentFeesEn].[ID] AS [ID]
+    FROM [dbo].[GovernmentFeesEn] AS [GovernmentFeesEn]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="JobClassificationOfExpenses" EntityType="Self.JobClassificationOfExpenses" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [JobClassificationOfExpenses].[Year] AS [Year], 
+    [JobClassificationOfExpenses].[JobClassificationOfExpenses] AS [JobClassificationOfExpenses], 
+    [JobClassificationOfExpenses].[JobClassificationOfExpensesEn] AS [JobClassificationOfExpensesEn], 
+    [JobClassificationOfExpenses].[TotalExpenses] AS [TotalExpenses], 
+    [JobClassificationOfExpenses].[ID] AS [ID], 
+    [JobClassificationOfExpenses].[GroupID] AS [GroupID]
+    FROM [dbo].[JobClassificationOfExpenses] AS [JobClassificationOfExpenses]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="RevenueByEconomicClassification" EntityType="Self.RevenueByEconomicClassification" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [RevenueByEconomicClassification].[Year] AS [Year], 
+    [RevenueByEconomicClassification].[EconomicClassification] AS [EconomicClassification], 
+    [RevenueByEconomicClassification].[TotalRevenue] AS [TotalRevenue], 
+    [RevenueByEconomicClassification].[ID] AS [ID], 
+    [RevenueByEconomicClassification].[EconomicClassificationEn] AS [EconomicClassificationEn]
+    FROM [dbo].[RevenueByEconomicClassification] AS [RevenueByEconomicClassification]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Revenues" EntityType="Self.Revenues" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Revenues].[Year] AS [Year], 
+    [Revenues].[TotalRevenue] AS [TotalRevenue], 
+    [Revenues].[ID] AS [ID]
+    FROM [dbo].[Revenues] AS [Revenues]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="RevenuesByFunctionalSectors" EntityType="Self.RevenuesByFunctionalSectors" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [RevenuesByFunctionalSectors].[Year] AS [Year], 
+    [RevenuesByFunctionalSectors].[SectorsByJob] AS [SectorsByJob], 
+    [RevenuesByFunctionalSectors].[TotalRevenue] AS [TotalRevenue], 
+    [RevenuesByFunctionalSectors].[ID] AS [ID], 
+    [RevenuesByFunctionalSectors].[SectorsByJobEn] AS [SectorsByJobEn]
+    FROM [dbo].[RevenuesByFunctionalSectors] AS [RevenuesByFunctionalSectors]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TotalExpenses" EntityType="Self.TotalExpenses" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TotalExpenses].[Year] AS [Year], 
+    [TotalExpenses].[TotalExpenses] AS [TotalExpenses], 
+    [TotalExpenses].[OperatingExpenses] AS [OperatingExpenses], 
+    [TotalExpenses].[CapitalSpending] AS [CapitalSpending], 
+    [TotalExpenses].[ID] AS [ID]
+    FROM [dbo].[TotalExpenses] AS [TotalExpenses]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
