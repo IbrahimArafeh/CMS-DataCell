@@ -1,0 +1,80 @@
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\CMS DataCell Solutions.dll.config
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\CMS DataCell Solutions.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\CMS DataCell Solutions.pdb
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\csc.exe
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\csc.exe.config
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\csc.rsp
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\csi.exe
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\csi.exe.config
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\csi.rsp
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.AppContext.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Console.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Globalization.Calendars.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.IO.Compression.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.IO.FileSystem.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Net.Http.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Net.Sockets.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.ValueTuple.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Xml.XPath.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\vbc.exe
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\vbc.exe.config
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\vbc.rsp
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\VBCSCompiler.exe
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Antlr3.Runtime.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\AspNet.ScriptManager.jQuery.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\EntityFramework.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\EntityFramework.SqlServer.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Newtonsoft.Json.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\System.Data.SqlClient.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\System.Web.Optimization.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\WebGrease.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\EntityFramework.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\EntityFramework.SqlServer.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\System.Data.SqlClient.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\System.Web.Optimization.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Newtonsoft.Json.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Antlr3.Runtime.pdb
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\obj\Debug\CMS DataCell Solutions.csproj.AssemblyReference.cache
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\obj\Debug\CMS DataCell Solutions.csproj.CoreCompileInputs.cache
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\obj\Debug\CMS DataCell Solutions.csproj.CopyComplete
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\obj\Debug\CMS DataCell Solutions.dll
+C:\Projects\CMS DataCell Solutions\CMS DataCell Solutions\obj\Debug\CMS DataCell Solutions.pdb
